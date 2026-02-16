@@ -1,0 +1,8 @@
+# Core dependencies
+yt-dlp>=2024.1.0
+
+# FFmpeg bundled (optional, but recommended for best quality)
+imageio-ffmpeg>=0.4.9
+
+# Note: tkinter comes with Python on most systems.
+# On Debian/Ubuntu, install with: sudo apt install python3-tk
