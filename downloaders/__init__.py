@@ -26,4 +26,5 @@ __all__ = [
     "YouTubeDownloader",
     "TwitterDownloader",
     "InstagramDownloader",
+    "AudiomackDownloader",
 ]

@@ -7,13 +7,14 @@ from .base import BaseDownloader, DownloadConfig, DownloadProgress
 from .youtube import YouTubeDownloader
 from .twitter import TwitterDownloader
 from .instagram import InstagramDownloader
-
+from .audiomack import AudiomackDownloader
 
 # Registry of all available downloaders
 DOWNLOADERS: list[Type[BaseDownloader]] = [
     YouTubeDownloader,
     TwitterDownloader,
     InstagramDownloader,
+    AudiomackDownloader,
 ]
 
 

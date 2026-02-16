@@ -1,0 +1,8 @@
+./downloads
+# Ignorar toda la carpeta downloads (en la raíz del repo)
+downloads/
+
+# Ignorar __pycache__ en cualquier subcarpeta
+__pycache__/
+**/__pycache__/
+*.py[cod]
